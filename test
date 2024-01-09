@@ -60,7 +60,7 @@ local Attack = function()
             return
         end
 
-        Knife:Activate()
+        Player.Character.Humanoid:EquipTool(Knife)  -- Equip the knife tool
         task.wait(0.1)
     end
 end
